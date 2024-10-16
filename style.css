@@ -1,0 +1,17 @@
+.baseFrame {
+  display: flex;
+  flex-direction: row;
+  width: 99vw;
+  height: 97vh;
+}
+.leftFrame {
+  width: 20%;
+  border: solid 1px;
+}
+.rightFrame {
+  width: 80%;
+  margin: 0 1px;
+  padding: 10px;
+  border: solid 1px;
+  overflow: auto;
+}
